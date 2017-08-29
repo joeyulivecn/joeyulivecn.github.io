@@ -1,4 +1,17 @@
-## Welcome to GitHub Pages
+## Welcome to my page
+
+### CAMLS
+- C: Culture
+- A: Automatiion
+- L: Lean
+- M: Matrix
+- S: Sharing
+
+### Three Ways
+- The First Way: System Thinking
+- The Second Way: Amplify Feedback Loops
+- The Third Way: Culture of Continual Experimentation And Leanring
+
 
 You can use the [editor on GitHub](https://github.com/joeyulivecn/joeyulivecn.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
