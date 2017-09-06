@@ -1,5 +1,8 @@
 ## Welcome to my page
 
+## DevOps
+[CentOS 7搭建Zabbix服务器]()
+
 ### CAMLS
 - C: Culture
 - A: Automatiion
