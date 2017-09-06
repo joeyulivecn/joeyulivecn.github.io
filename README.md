@@ -1,7 +1,7 @@
 ## Welcome to my page
 
 ## DevOps
-[CentOS 7搭建Zabbix服务器]()
+[CentOS 7搭建Zabbix服务器](https://github.com/joeyulivecn/joeyulivecn.github.io/blob/master/devops/setup_zabbix_on_centos_7.md)
 
 ### CAMLS
 - C: Culture
