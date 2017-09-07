@@ -1,9 +1,9 @@
-# CentOS 7搭建Zabbix服务器
+# CentOS 7搭建Zabbix服务�
 
 ## STEP 1: 安装MariaDB 10.2
 
-### 添加MariaDB yum源
-#### CentOS默认yum源只能安装5.6版本的
+### 添加MariaDB yum�
+#### CentOS默认yum源只能安�.6版本�
 
 > vi /etc/yum.repo.d/MariaDB.repo
 
@@ -62,7 +62,7 @@ DBPassword=<password>
 > systemctl enable zabbix-server
 
 ### PHP configuration for Zabbix frontend
-#### Apache configuration file for Zabbix frontend is located in /etc/httpd/conf.d/zabbix.conf. Some PHP settings are already configured. But it's necessary to #### uncomment the “date.timezone” setting and set the right timezone for you.
+#### Apache configuration file for Zabbix frontend is located in /etc/httpd/conf.d/zabbix.conf. Some PHP settings are already configured. But it's necessary to #### uncomment the “date.timezone�setting and set the right timezone for you.
 
 ```markdown
 php_value max_execution_time 300
@@ -74,14 +74,14 @@ php_value always_populate_raw_post_data -1
 # php_value date.timezone Europe/Riga
 ```
 
-> 修改注释行
+> 修改注释�
 > php_value date.timezone Asia/Shanghai
 
 > 检查并设置timezone
 > date
 > timedatectl set-timezone Asia/Shanghai
 
-### 开放80端口
+### 开�0端口
 > firewall-cmd --add-port=80/tcp --permanent
 > firewall-cmd --reload
 
@@ -91,4 +91,4 @@ php_value always_populate_raw_post_data -1
 ## STEP 4：Installing frontend 
 > In your browser, open Zabbix URL: http://<server_ip_or_name>/zabbix
 > You should see the first screen of the frontend installation wizard.
-> 下面的步骤比较简单，基本一路下一步。就可以用默认账户Admin/zabbix登录了
+> 下面的步骤比较简单，基本一路下一步。就可以用默认账户Admin/zabbix登录�
