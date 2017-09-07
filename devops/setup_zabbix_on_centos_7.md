@@ -74,21 +74,24 @@ php_value always_populate_raw_post_data -1
 # php_value date.timezone Europe/Riga
 ```
 
-> Modify the timezone
+### Modify the timezone
+```markdown
 > php_value date.timezone Asia/Shanghai
+```
 
-> check and update timezone
+### Check and update timezone
 > date
 > timedatectl set-timezone Asia/Shanghai
 
 ### Configure Firewall to allow port 80
 > firewall-cmd --add-port=80/tcp --permanent
+
 > firewall-cmd --reload
 
 ### Start httpd
 > systemctl start httpd
 
 ## STEP 4：Installing frontend 
-> In your browser, open Zabbix URL: http://<server_ip_or_name>/zabbix
-> You should see the first screen of the frontend installation wizard.
-> After finishing the wizard, log in with Admin:zabbix
+> In your browser, open Zabbix URL: http://<server_ip_or_name>/zabbix. You should see the first screen of the frontend installation wizard. 
+
+> After finishing the wizard, log in with Admin:zabbix 
