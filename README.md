@@ -12,6 +12,7 @@
 
 ## DevOps
 [Setup Zabbix Server on CentOS 7](https://github.com/joeyulivecn/joeyulivecn.github.io/blob/master/devops/setup_zabbix_on_centos_7.md)
+
 [MindMap for Git](https://github.com/joeyulivecn/joeyulivecn.github.io/blob/master/devops/Git.xmind)
 
 
