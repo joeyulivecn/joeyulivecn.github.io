@@ -1,9 +1,9 @@
-# CentOS 7搭建Zabbix服务�
+# Setup Zabbix Server on CentOS 7
 
-## STEP 1: 安装MariaDB 10.2
+## STEP 1: Install MariaDB 10.2
 
-### 添加MariaDB yum�
-#### CentOS默认yum源只能安�.6版本�
+### Add yum repository for MariaDB 
+#### CentOS will install 5.6 by default
 
 > vi /etc/yum.repo.d/MariaDB.repo
 
@@ -16,18 +16,18 @@ gpgcheck=1
 ```
 > yum makecache fast
 
-### 安装mariadb
+### Install MariaDB
 > yum install MariaDB-client MariaDB-server
 
-### 安装过程中解决mariadb-libs-1:5.5.52-1.el7.x86_64冲突后，再次运行上面命令
+#### If you encounter the conflict with mariadb-libs-1:5.5.52-1.el7.x86_64, remove the rpm and try again.
 > rpm -e  mariadb-libs-1:5.5.52-1.el7.x86_64 --nodeps
 
-### 启动mariadb
+### Start MariaDB
 > systemctl start mariadb
 > systemctl enable  mariadb
 
-## STEP 2: 安装Zabbix 3.2
-##### [参考官方文档](https://www.zabbix.com/documentation/3.2/manual/installation/install_from_packages/server_installation_with_mysql)
+## STEP 2: Install Zabbix 3.2
+##### [Offical Docment](https://www.zabbix.com/documentation/3.2/manual/installation/install_from_packages/server_installation_with_mysql)
 
 ### Installing repository configuration package
 
@@ -62,7 +62,7 @@ DBPassword=<password>
 > systemctl enable zabbix-server
 
 ### PHP configuration for Zabbix frontend
-#### Apache configuration file for Zabbix frontend is located in /etc/httpd/conf.d/zabbix.conf. Some PHP settings are already configured. But it's necessary to #### uncomment the “date.timezone�setting and set the right timezone for you.
+#### Apache configuration file for Zabbix frontend is located in /etc/httpd/conf.d/zabbix.conf. Some PHP settings are already configured. But it's necessary to #### uncomment the “date.timezone” setting and set the right timezone for you.
 
 ```markdown
 php_value max_execution_time 300
@@ -74,21 +74,21 @@ php_value always_populate_raw_post_data -1
 # php_value date.timezone Europe/Riga
 ```
 
-> 修改注释�
+> Modify the timezone
 > php_value date.timezone Asia/Shanghai
 
-> 检查并设置timezone
+> check and update timezone
 > date
 > timedatectl set-timezone Asia/Shanghai
 
-### 开�0端口
+### Configure Firewall to allow port 80
 > firewall-cmd --add-port=80/tcp --permanent
 > firewall-cmd --reload
 
-### 启动httpd
+### Start httpd
 > systemctl start httpd
 
 ## STEP 4：Installing frontend 
 > In your browser, open Zabbix URL: http://<server_ip_or_name>/zabbix
 > You should see the first screen of the frontend installation wizard.
-> 下面的步骤比较简单，基本一路下一步。就可以用默认账户Admin/zabbix登录�
+> After finishing the wizard, log in with Admin:zabbix
