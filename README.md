@@ -17,7 +17,7 @@
 
 [Setup Nginx for Download Server](https://github.com/joeyulivecn/joeyulivecn.github.io/blob/master/docs/setup-nginx-for-download-server.md)
 
-[MindMap for Git](https://github.com/joeyulivecn/joeyulivecn.github.io/blob/master/devops/Git.xmind)
+[Mind Map for Git](https://github.com/joeyulivecn/joeyulivecn.github.io/blob/master/devops/Git.xmind)
 
 ##### Email: joeyu@live.cn
 
