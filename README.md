@@ -15,6 +15,8 @@
 ## Articles
 [Setup Zabbix Server on CentOS 7](https://github.com/joeyulivecn/joeyulivecn.github.io/blob/master/devops/setup_zabbix_on_centos_7.md)
 
+[Setup Nginx for Download Server](https://github.com/joeyulivecn/joeyulivecn.github.io/blob/master/docs/setup-nginx-for-download-server.md)
+
 [MindMap for Git](https://github.com/joeyulivecn/joeyulivecn.github.io/blob/master/devops/Git.xmind)
 
 

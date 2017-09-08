@@ -37,4 +37,5 @@
 
 #### Start nginx service and make it start on boot
 > systemctl start nginx
+
 > systemctl enable nginx
