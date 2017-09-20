@@ -18,6 +18,7 @@
         autoindex_localtime on;
         auth_basic "please log on...";
         auth_basic_user_file /usr/share/nginx/passwd;
+        charset utf-8,gbk; ## support display Chinese
     }
 ```
 
