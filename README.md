@@ -12,7 +12,7 @@
 
 [Mind Map for Git](https://github.com/joeyulivecn/joeyulivecn.github.io/blob/master/devops/Git.xmind)
 
-[Debug Flask in visual stuido code](https://github.com/joeyulivecn/joeyulivecn.github.io/master/docs/debug-flask-in-visual-studio-code.md)
+[Debug Flask in visual stuido code](https://github.com/joeyulivecn/joeyulivecn.github.io/blob/master/docs/debug-flask-in-visual-studio-code.md)
 
 ##### Email: joeyu@live.cn
 
