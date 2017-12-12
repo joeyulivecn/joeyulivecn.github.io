@@ -38,7 +38,7 @@ C:\FLASK_APP
 
 #### Create a simple Flask app
 views.py
-```markdown
+```markdown python
 from app import app
 
 @app.route('/')
@@ -48,7 +48,7 @@ def index():
 ```
 
 __init__.py
-```markdown
+```markdown python
 from flask import Flask
 
 app = Flask(__name__)
@@ -56,7 +56,7 @@ from app import views
 ```
 
 run.py
-```markdown
+```markdown python
 #!venv/bin/python
 from app import app
 app.run(debug=False)
@@ -68,7 +68,7 @@ app.run(debug=False)
 
 
 .vscode\settings.json
-```markdown
+```markdown json
 {
     "python.pythonPath": "${workspaceRoot}\\venv\\Scripts\\python.exe"
 }
@@ -77,7 +77,7 @@ app.run(debug=False)
 #### launch.json
 > 
 Create launch.json under .vscode folder
-```markdown
+```markdown json
 {
     "version": "0.2.0",
     "configurations": [
@@ -106,5 +106,5 @@ Create launch.json under .vscode folder
 }
 ```
 
-#### Now set some breakpoints and start debugging!
+##### Now set some breakpoints and start debugging!
 
