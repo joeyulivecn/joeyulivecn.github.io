@@ -62,9 +62,8 @@ https://github.com/joeyulivecn/joeyulivecn.github.io/raw/master/images/nginx_and
 #### Setup backend web servers(192.168.100.30, 192.168.100.32)
 > yum install nginx
 
+Add ip address of current host to index.html. It will be useful to test if the load balance works.
 > vi /usr/share/nginx/html/index.html
-
-> add ip address of current host to <body>
 
 > firewall-cmd --add-port=80/tcp --permanent
 
