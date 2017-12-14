@@ -201,7 +201,7 @@ you should see inet 192.168.100.40/32 under enp0s3
 #### Test keepalived
 > visit http://192.168.100.40 should work
 
-stop nginx on 192.168.100.28
+stop nginx on 192.168.100.28 or 192.168.100.29
 > nginx -s stop
 
 > visit http://192.168.100.40 should still work
