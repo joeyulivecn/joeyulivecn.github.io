@@ -14,5 +14,7 @@
 
 [Debug Flask in visual stuido code](https://github.com/joeyulivecn/joeyulivecn.github.io/blob/master/docs/debug-flask-in-visual-studio-code.md)
 
+[Setup nginx and keepalived](https://github.com/joeyulivecn/joeyulivecn.github.io/blob/master/docs/setup_nginx_keepalived.md)
+
 ##### Email: joeyu@live.cn
 
