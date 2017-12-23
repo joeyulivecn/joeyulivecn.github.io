@@ -25,7 +25,7 @@
 	* IP: 192.168.100.32
 	* nginx
 
-https://github.com/joeyulivecn/joeyulivecn.github.io/raw/master/images/nginx_and_keepalived.png
+![image](https://github.com/joeyulivecn/joeyulivecn.github.io/raw/master/images/nginx_and_keepalived.png)
 
 #### Setup load balance with nginx (192.168.100.28, 192.168.100.29)
 > yum install nginx
