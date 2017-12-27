@@ -1,6 +1,7 @@
-- System Thinking
-- Amplify Feedback Loop
-- Culture of Continual Experimentation and Learning
+## The Three Ways: The Principles Underpinning DevOps
+- The First Way: System Thinking
+- The Second Way: Amplify Feedback Loop
+- The Third Way: Culture of Continual Experimentation and Learning
 
 
 ## Articles
