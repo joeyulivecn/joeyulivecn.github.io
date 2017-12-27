@@ -1,9 +1,7 @@
-### CAMLS
-- C: Culture
-- A: Automatiion
-- L: Lean
-- M: Matrix
-- S: Sharing
+- System Thinking
+- Amplify Feedback Loop
+- Culture of Continual Experimentation and Learning
+
 
 ## Articles
 [Setup Zabbix Server on CentOS 7](https://github.com/joeyulivecn/joeyulivecn.github.io/blob/master/devops/setup_zabbix_on_centos_7.md)
