@@ -1,6 +1,6 @@
   
-  wget https://dev.mysql.com/get/mysql57-community-release-el7-11.noarch.rpm 
-  rpm -Uvh mysql57-community-release-el7-11.noarch.rpm 
+  wget https://dev.mysql.com/get/mysql57-community-release-el7-11.noarch.rpm  
+  rpm -Uvh mysql57-community-release-el7-11.noarch.rpm  
   yum repolist 
   yum install mysql-community-server-5.7.22 
   vim /etc/my.cnf -> bind-address 0.0.0.0 
