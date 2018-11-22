@@ -14,3 +14,4 @@
   firewall-cmd --reload 
   
   
+  -- set global validate_password_policy=0;
