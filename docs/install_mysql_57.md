@@ -15,3 +15,15 @@
   
   
   -- set global validate_password_policy=0;
+  
+ 
+
+  ##Reset root password   
+  /etc/my.cnf -> restart mysqld
+  skip-grant-tables
+
+  mysql -uroot -p
+  use mysql;
+
+  update user set authentication_string=password('root') where user='root';
+
